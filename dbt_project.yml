@@ -14,5 +14,5 @@ clean-targets:
   - "dbt_packages"
 models:
   dbt_scooters:
-    example:
+    models:
       +materialized: table
